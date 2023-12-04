@@ -12,6 +12,7 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import TopicsPage from './pages/TopicsPage';
 import TravelPage from './pages/TravelPage';
+import GalleryPage from './pages/GalleryPage';
 
 // If your schema requires SHORT data input, then use the TABLE design.
 import EditTravelPageTable from './pages/EditTravelPageTable';
@@ -42,6 +43,7 @@ function App() {
                     <Route path="/travel" element={<TravelPage setCountry={setCountryToEdit}/>} />
                     <Route path="/create" element={<AddTravelPageTable />} />   
                     <Route path="/update" element={<EditTravelPageTable countryToEdit={country} />} />
+                    <Route path="/gallery" element={<GalleryPage />} />
                 </Routes>
               </section>
           </main>

@@ -9,6 +9,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pacifico&display=swap');
+  @import "~react-image-gallery/styles/css/image-gallery.css";
 
 
 /*   ----- Variables  -----  */
@@ -304,25 +305,15 @@
   progress {}
   
   /* ----- Media ----- */
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    align-content:center;
-  }
+
   figure {
-    border: dotted;
-    border-color: var(--orange);
-    margin: 1%;
-    width: 400px;    
+  
   }
     figcaption {
-        text-align: center;
-        padding: 0.5em;
+
     }
     figure img {
-        width: 100%;
+
     }
   svg {}
   picture {}

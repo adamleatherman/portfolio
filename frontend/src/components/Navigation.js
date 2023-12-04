@@ -11,6 +11,7 @@ function Navigation() {
         <Link to="/">Home</Link>
         <Link to="/topics">Topics</Link>
         <Link to="/travel">Travelogue</Link>
+        <Link to="/gallery">Gallery</Link>
     </nav>
   );
 }
