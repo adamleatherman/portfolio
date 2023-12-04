@@ -48,7 +48,7 @@ function TravelPage({ setCountry }) {
     return (
         <>
             <h2>Travelogue</h2>
-            <p>This page serves as an interactive travel diary. Please use the create, edit, or delete buttons to modify the list as necessary.</p>
+            <p>This React-driven travelogue table page seamlessly integrates with MongoDB through Mongoose and Express, offering an interactive platform for managing and displaying travel data, fostering a dynamic and efficient user experience for exploring and updating travel information.</p>
             <Link to="/create" id="create">Add Country <VscAdd /></Link>
             
             <TravelList

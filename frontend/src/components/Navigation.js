@@ -12,6 +12,7 @@ function Navigation() {
         <Link to="/topics">Topics</Link>
         <Link to="/travel">Travelogue</Link>
         <Link to="/gallery">Gallery</Link>
+        <Link to="/order">Order</Link>
     </nav>
   );
 }

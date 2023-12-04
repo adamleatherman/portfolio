@@ -16,13 +16,10 @@ function TopicsPage() {
             <article id="servers">
                 <h3>Web Servers</h3>
                 <p>
-                    In the context of <strong>websites</strong> and <strong>servers</strong>, <strong>index</strong> typically refers to the filename of a designated <strong>homepage.</strong>
-                    Oftentimes, the designated homepage is an <strong>HTML</strong> file aptly named 'index.html'. 
-                    Most <strong>web servers</strong> are configured to return 'index.html' whenever a <strong>GET request</strong> is received for the <strong>URL.</strong>
+                    In the context of <strong>websites</strong> and <strong>servers</strong>, <strong>index</strong> typically refers to the filename of a designated <strong>homepage.</strong> Oftentimes, the designated homepage is an <strong>HTML</strong> file aptly named 'index.html'. Most <strong>web servers</strong> are configured to return 'index.html' whenever a <strong>GET request</strong> is received for the <strong>URL.</strong>
                 </p>
                 <p>
-                    When 'index.html' is opened in Firefox from the local computer's drive, the file's <strong>network details</strong> 
-                    do not display any <strong>HTTP requests.</strong> This is in contrast to the file's network details when it is served from
+                    When 'index.html' is opened in Firefox from the local computer's drive, the file's <strong>network details</strong> do not display any <strong>HTTP requests.</strong> This is in contrast to the file's network details when it is served from
                     the OSU web server. When Firefox opens 'index.html' from the student's web server, the file's network details 
                     display four separate GET requests: one for the HTML file, one for a 'main.css' file, one for a 'main.js' file, and
                     one for a 'favicon.ico' file. 
@@ -42,8 +39,7 @@ function TopicsPage() {
                 <p>
                     The process of creating an appropriate, visually appealing, and interactive <strong>graphical user-interface (GUI)</strong> 
                     is known as <strong>frontend design</strong>. Developers and designers focus on mastering aesthetics such as color scheme, font scheme, 
-                    typography scheme, photography, icons, and more. An application must be <strong>usable</strong>, meaning the <strong>user's experience</strong>
-                    must be of high quality. World Usability Day outlines a list of <strong>"Five E's of Usability"</strong>:
+                    typography scheme, photography, icons, and more. An application must be <strong>usable</strong>, meaning the <strong>user's experience</strong> must be of high quality. World Usability Day outlines a list of <strong>"Five E's of Usability"</strong>:
                 </p>
                 <dl>
                     <dt><strong>Effective</strong></dt>
@@ -82,7 +78,7 @@ function TopicsPage() {
             <article id="images">
                 <h3>Optimizing images</h3>
                 <p>
-                    For an image to be considered <strong>optimal</strong>, it must first meet certain specifications. It must have a <strong>descriptive file name</strong>
+                    For an image to be considered <strong>optimal</strong>, it must first meet certain specifications. It must have a <strong>descriptive file name </strong>
                     that describes the "who", "what", "when", and so on, of the subject(s) in the photograph. This helps ensure improved <strong>search engine optimization</strong>.
                     The image also should have a <strong>small file size</strong> to reduce loading time. This can typically be achieved via <strong>image compression</strong>. 
                     Optimized images also have <strong>exact dimensions</strong>, meaning they are cut and cropped to fit the dimensions of the space on a web page. 
@@ -118,9 +114,9 @@ function TopicsPage() {
                 <p>
                     A developer has five main ways to incorporate styles. <strong>External</strong> CSS rules can be <strong>&lt;link&gt;</strong>ed in the 
                     &lt;head&gt; of an HTML file or <strong>imported</strong> via <strong>@import</strong>. Developers prefer externally linked CSS files as they are typically
-                    the most efficient method. Certain one-off style changes can be <strong>embedded</strong> within an HTML &lt;style&gt; tag, <strong>inline</strong>
+                    the most efficient method. Certain one-off style changes can be <strong>embedded</strong> within an HTML &lt;style&gt; tag, <strong>inline </strong>
                     within an element using an attribute and value, defined within <strong>JavaScript template literals</strong>, or by manipulating the 
-                    <strong>Document Object Model (DOM)</strong> in <strong>regular JavaScript</strong>.
+                    <strong> Document Object Model (DOM)</strong> in <strong>regular JavaScript</strong>.
                 </p>
             </article>
             <article id="forms">

@@ -13,6 +13,7 @@ import HomePage from './pages/HomePage';
 import TopicsPage from './pages/TopicsPage';
 import TravelPage from './pages/TravelPage';
 import GalleryPage from './pages/GalleryPage';
+import OrderPage from './pages/OrderPage';
 
 // If your schema requires SHORT data input, then use the TABLE design.
 import EditTravelPageTable from './pages/EditTravelPageTable';
@@ -29,7 +30,7 @@ function App() {
 
           <header>
             <h1>Adam Leatherman</h1>
-            <p>Check out my portfolio project—an efficient Single Page Application &#40;SPA&#41; built using React and Mongoose. See how this application smoothly handles Create, Read, Update, and Delete &#40;CRUD&#41; operations through a RESTful API. With React on the frontend, enjoy a user-friendly interface, while Mongoose manages data on the backend, making it a straightforward and practical demonstration of my web development skills.</p>
+            <p>Check out my portfolio project—an efficient Single Page Application &#40;SPA&#41; built on the MERN stack. See how this application smoothly handles Create, Read, Update, and Delete &#40;CRUD&#41; operations through a RESTful API. With React on the frontend, enjoy a user-friendly interface, while Express and Mongoose manage data on the backend, making it a straightforward and practical demonstration of my web development skills.</p>
           </header>
 
           <Navigation />
@@ -44,6 +45,7 @@ function App() {
                     <Route path="/create" element={<AddTravelPageTable />} />   
                     <Route path="/update" element={<EditTravelPageTable countryToEdit={country} />} />
                     <Route path="/gallery" element={<GalleryPage />} />
+                    <Route path="/order" element={<OrderPage />} />
                 </Routes>
               </section>
           </main>

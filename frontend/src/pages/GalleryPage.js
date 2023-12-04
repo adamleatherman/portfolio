@@ -78,7 +78,7 @@ function GalleryPage() {
     return (
         <>
             <h2>Gallery</h2>
-            <p>Showcase of a diverse collection of photos capturing moments from projects, hobbies, vacations, and cherished family memories.</p>
+            <p>This React-powered page features an image gallery that allows users to seamlessly navigate and explore a collection of images, providing an engaging and visually appealing experience for showcasing diverse visual content.</p>
             <article>
                 <ImageGallery items={images} />
             </article>

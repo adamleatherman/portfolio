@@ -6,9 +6,7 @@
   /* @import 'node_modules/modern-normalize/modern-normalize.css';  npm install modern-normalize  Resets elements for browser consistency.  https://www.npmjs.com/package/modern-normalize */         
   /* @import "component1.css";   Component-specific stylesheets, if any.   */
   /* @import url(//fonts.googleapis.com/css?family=Font+Name); Add fonts from a hosted services like Google Fonts.   */
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@400;700&family=Pacifico&display=swap');
   @import "~react-image-gallery/styles/css/image-gallery.css";
 
 
@@ -31,7 +29,7 @@
     background-position: top left;
     background-repeat: no-repeat;
     color: var(--brown);
-    font-family: 'Raleway', sans-serif; /* Define with at least one font name and its related generic family name.*/
+    font-family: 'Lato', sans-serif; /* Define with at least one font name and its related generic family name.*/
     margin: 0 auto;
     padding:;
     max-width: 95%;
@@ -51,9 +49,7 @@
     margin-left: 0.5em;
   }
   header h1 {
-    font-family: 'DM Serif Display', serif;
-    font-family: 'Pacifico', cursive;
-    
+    font-family: 'Lato', sans-serif;    
   }
   main {
     background-color: rgba(245, 227, 201, 0.8);
@@ -164,7 +160,7 @@
   }
   dd {}
   
-  h1, h2, h3, h4, h5, h6 {font-family: 'DM Serif Display', serif;} 
+  h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;} 
   h1 {}
   h2 {}
   h3 {}
@@ -201,7 +197,10 @@
   table {
     border-collapse: collapse;
     margin-bottom: 5%;
+    margin: 0 auto;
+    width: 100%;
   }
+
   caption {
     background-color: var(--brown);  
     border:1px solid gray;  
@@ -247,14 +246,15 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
   form strong {
     color: red;
   }
   fieldset {
     border-style: dotted;
     border-color: var(--brown);
-    margin-top: 2.5%;
     padding: 2%;
+    min-width: 50%;
   }
     legend {
       border-color: var(--orange);
