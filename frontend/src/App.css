@@ -243,7 +243,7 @@
   /*  ----- Form ----- */
   form {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: center;
   }
 
@@ -254,7 +254,7 @@
     border-style: dotted;
     border-color: var(--brown);
     padding: 2%;
-    min-width: 50%;
+
   }
     legend {
       border-color: var(--orange);

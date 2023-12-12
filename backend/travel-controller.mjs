@@ -8,7 +8,6 @@ const PORT = process.env.PORT;
 const app = express();
 app.use(express.json());  // REST needs JSON MIME type.
 
-
 // CREATE controller ******************************************
 app.post ('/travel', (req,res) => { 
     locations.createTravelLog(
@@ -99,7 +98,6 @@ app.delete('/travel/:_id', (req, res) => {
             res.send({ Error: 'Invalid request to delete entry. Please try again.' });
         });
 });
-
 
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}...`);

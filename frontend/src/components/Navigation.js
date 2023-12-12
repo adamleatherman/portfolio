@@ -13,6 +13,7 @@ function Navigation() {
         <Link to="/travel">Travelogue</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/order">Order</Link>
+        <Link to="/contact">Contact</Link>
     </nav>
   );
 }

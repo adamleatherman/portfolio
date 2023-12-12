@@ -14,6 +14,7 @@ import TopicsPage from './pages/TopicsPage';
 import TravelPage from './pages/TravelPage';
 import GalleryPage from './pages/GalleryPage';
 import OrderPage from './pages/OrderPage';
+import ContactPage from './pages/ContactPage';
 
 // If your schema requires SHORT data input, then use the TABLE design.
 import EditTravelPageTable from './pages/EditTravelPageTable';
@@ -46,6 +47,7 @@ function App() {
                     <Route path="/update" element={<EditTravelPageTable countryToEdit={country} />} />
                     <Route path="/gallery" element={<GalleryPage />} />
                     <Route path="/order" element={<OrderPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
                 </Routes>
               </section>
           </main>
